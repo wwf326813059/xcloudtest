@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092B525C2858758500370801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B525B2858758500370801 /* AppDelegate.m */; };
+		092B525F2858758500370801 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B525E2858758500370801 /* SceneDelegate.m */; };
+		092B52622858758500370801 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B52612858758500370801 /* ViewController.m */; };
+		092B52652858758500370801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092B52632858758500370801 /* Main.storyboard */; };
+		092B52672858758600370801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092B52662858758600370801 /* Assets.xcassets */; };
+		092B526A2858758600370801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092B52682858758600370801 /* LaunchScreen.storyboard */; };
+		092B526D2858758600370801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B526C2858758600370801 /* main.m */; };
+		092B52772858758700370801 /* xcloudTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B52762858758700370801 /* xcloudTestTests.m */; };
+		092B52812858758700370801 /* xcloudTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B52802858758700370801 /* xcloudTestUITests.m */; };
+		092B52832858758700370801 /* xcloudTestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B52822858758700370801 /* xcloudTestUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		092B52732858758700370801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092B524F2858758500370801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092B52562858758500370801;
+			remoteInfo = xcloudTest;
+		};
+		092B527D2858758700370801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092B524F2858758500370801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092B52562858758500370801;
+			remoteInfo = xcloudTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092B52572858758500370801 /* xcloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		092B525A2858758500370801 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		092B525B2858758500370801 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		092B525D2858758500370801 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		092B525E2858758500370801 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		092B52602858758500370801 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		092B52612858758500370801 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		092B52642858758500370801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		092B52662858758600370801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		092B52692858758600370801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		092B526B2858758600370801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092B526C2858758600370801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		092B52722858758700370801 /* xcloudTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcloudTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		092B52762858758700370801 /* xcloudTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcloudTestTests.m; sourceTree = "<group>"; };
+		092B527C2858758700370801 /* xcloudTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcloudTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		092B52802858758700370801 /* xcloudTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcloudTestUITests.m; sourceTree = "<group>"; };
+		092B52822858758700370801 /* xcloudTestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcloudTestUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092B52542858758500370801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092B526F2858758700370801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092B52792858758700370801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092B524E2858758500370801 = {
+			isa = PBXGroup;
+			children = (
+				092B52592858758500370801 /* xcloudTest */,
+				092B52752858758700370801 /* xcloudTestTests */,
+				092B527F2858758700370801 /* xcloudTestUITests */,
+				092B52582858758500370801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		092B52582858758500370801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092B52572858758500370801 /* xcloudTest.app */,
+				092B52722858758700370801 /* xcloudTestTests.xctest */,
+				092B527C2858758700370801 /* xcloudTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		092B52592858758500370801 /* xcloudTest */ = {
+			isa = PBXGroup;
+			children = (
+				092B525A2858758500370801 /* AppDelegate.h */,
+				092B525B2858758500370801 /* AppDelegate.m */,
+				092B525D2858758500370801 /* SceneDelegate.h */,
+				092B525E2858758500370801 /* SceneDelegate.m */,
+				092B52602858758500370801 /* ViewController.h */,
+				092B52612858758500370801 /* ViewController.m */,
+				092B52632858758500370801 /* Main.storyboard */,
+				092B52662858758600370801 /* Assets.xcassets */,
+				092B52682858758600370801 /* LaunchScreen.storyboard */,
+				092B526B2858758600370801 /* Info.plist */,
+				092B526C2858758600370801 /* main.m */,
+			);
+			path = xcloudTest;
+			sourceTree = "<group>";
+		};
+		092B52752858758700370801 /* xcloudTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				092B52762858758700370801 /* xcloudTestTests.m */,
+			);
+			path = xcloudTestTests;
+			sourceTree = "<group>";
+		};
+		092B527F2858758700370801 /* xcloudTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				092B52802858758700370801 /* xcloudTestUITests.m */,
+				092B52822858758700370801 /* xcloudTestUITestsLaunchTests.m */,
+			);
+			path = xcloudTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		092B52562858758500370801 /* xcloudTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092B52862858758700370801 /* Build configuration list for PBXNativeTarget "xcloudTest" */;
+			buildPhases = (
+				092B52532858758500370801 /* Sources */,
+				092B52542858758500370801 /* Frameworks */,
+				092B52552858758500370801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xcloudTest;
+			productName = xcloudTest;
+			productReference = 092B52572858758500370801 /* xcloudTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		092B52712858758700370801 /* xcloudTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092B52892858758700370801 /* Build configuration list for PBXNativeTarget "xcloudTestTests" */;
+			buildPhases = (
+				092B526E2858758700370801 /* Sources */,
+				092B526F2858758700370801 /* Frameworks */,
+				092B52702858758700370801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				092B52742858758700370801 /* PBXTargetDependency */,
+			);
+			name = xcloudTestTests;
+			productName = xcloudTestTests;
+			productReference = 092B52722858758700370801 /* xcloudTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		092B527B2858758700370801 /* xcloudTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092B528C2858758700370801 /* Build configuration list for PBXNativeTarget "xcloudTestUITests" */;
+			buildPhases = (
+				092B52782858758700370801 /* Sources */,
+				092B52792858758700370801 /* Frameworks */,
+				092B527A2858758700370801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				092B527E2858758700370801 /* PBXTargetDependency */,
+			);
+			name = xcloudTestUITests;
+			productName = xcloudTestUITests;
+			productReference = 092B527C2858758700370801 /* xcloudTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092B524F2858758500370801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					092B52562858758500370801 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					092B52712858758700370801 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 092B52562858758500370801;
+					};
+					092B527B2858758700370801 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 092B52562858758500370801;
+					};
+				};
+			};
+			buildConfigurationList = 092B52522858758500370801 /* Build configuration list for PBXProject "xcloudTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 092B524E2858758500370801;
+			productRefGroup = 092B52582858758500370801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				092B52562858758500370801 /* xcloudTest */,
+				092B52712858758700370801 /* xcloudTestTests */,
+				092B527B2858758700370801 /* xcloudTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		092B52552858758500370801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092B526A2858758600370801 /* LaunchScreen.storyboard in Resources */,
+				092B52672858758600370801 /* Assets.xcassets in Resources */,
+				092B52652858758500370801 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092B52702858758700370801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092B527A2858758700370801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		092B52532858758500370801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092B52622858758500370801 /* ViewController.m in Sources */,
+				092B525C2858758500370801 /* AppDelegate.m in Sources */,
+				092B526D2858758600370801 /* main.m in Sources */,
+				092B525F2858758500370801 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092B526E2858758700370801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092B52772858758700370801 /* xcloudTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092B52782858758700370801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092B52812858758700370801 /* xcloudTestUITests.m in Sources */,
+				092B52832858758700370801 /* xcloudTestUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		092B52742858758700370801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 092B52562858758500370801 /* xcloudTest */;
+			targetProxy = 092B52732858758700370801 /* PBXContainerItemProxy */;
+		};
+		092B527E2858758700370801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 092B52562858758500370801 /* xcloudTest */;
+			targetProxy = 092B527D2858758700370801 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		092B52632858758500370801 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092B52642858758500370801 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		092B52682858758600370801 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092B52692858758600370801 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		092B52842858758700370801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		092B52852858758700370801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		092B52872858758700370801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xcloudTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reun.xcloudTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		092B52882858758700370801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xcloudTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reun.xcloudTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		092B528A2858758700370801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reun.xcloudTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcloudTest.app/xcloudTest";
+			};
+			name = Debug;
+		};
+		092B528B2858758700370801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reun.xcloudTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcloudTest.app/xcloudTest";
+			};
+			name = Release;
+		};
+		092B528D2858758700370801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reun.xcloudTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = xcloudTest;
+			};
+			name = Debug;
+		};
+		092B528E2858758700370801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reun.xcloudTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = xcloudTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		092B52522858758500370801 /* Build configuration list for PBXProject "xcloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092B52842858758700370801 /* Debug */,
+				092B52852858758700370801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092B52862858758700370801 /* Build configuration list for PBXNativeTarget "xcloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092B52872858758700370801 /* Debug */,
+				092B52882858758700370801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092B52892858758700370801 /* Build configuration list for PBXNativeTarget "xcloudTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092B528A2858758700370801 /* Debug */,
+				092B528B2858758700370801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092B528C2858758700370801 /* Build configuration list for PBXNativeTarget "xcloudTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092B528D2858758700370801 /* Debug */,
+				092B528E2858758700370801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 092B524F2858758500370801 /* Project object */;
+}
